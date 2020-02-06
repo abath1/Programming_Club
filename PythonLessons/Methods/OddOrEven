@@ -1,0 +1,12 @@
+#print, input
+
+x = int(input("Enter a number:"))
+output = ""
+
+def EvenOrOdd(x=0):
+  if x % 2 == 0:
+    return output = "Even"
+  else:
+    return output = "Odd"
+
+print(output)
