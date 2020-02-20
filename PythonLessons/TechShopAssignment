@@ -1,0 +1,15 @@
+class shops:
+  def __init__(self, name = "", distance = 0, rating = 0):
+    self.name = name
+    self.distance = distance
+    self.rating - rating
+
+number = int(input("Enter the number of tech shops:"))
+list[number] = 0
+
+for i in range(0, number):
+  name = input("Enter the name of the shop:")
+  distance = int(input("Enter the distance:"))
+  rating = int(input("Enter the rating of the store:"))
+  list[i] = shops(name, distance, rating)
+
