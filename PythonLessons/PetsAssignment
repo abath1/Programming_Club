@@ -1,0 +1,8 @@
+class pets:
+  def __init__ (self, name = "", int = 0):
+    pets.name = name
+    pets.int = int
+
+ number = int(input("Enter the number of pets:"))
+
+ 
